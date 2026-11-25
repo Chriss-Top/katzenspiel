@@ -42,3 +42,9 @@ Wartet die Katze lange, leuchtet die passende Sache golden auf.
 Am Ende gibt es eine Urkunde, danach geht es im freien Spiel weiter. Der Spielstand wird im Browser gespeichert.
 
 Man kann nicht verlieren. Ein falscher Gegenstand führt nur zu einem freundlichen Hinweis. Die Texte werden vorgelesen; das lässt sich mit 🔊 abschalten.
+
+## Online spielen (GitHub Pages)
+
+Der Workflow `.github/workflows/pages.yml` veröffentlicht das Spiel bei jedem Push automatisch.
+Einmalig nötig: im Repository unter **Settings → Pages → Build and deployment → Source** „**GitHub Actions**“ auswählen.
+Danach ist das Spiel erreichbar unter `https://<benutzername>.github.io/katzenspiel/`.
